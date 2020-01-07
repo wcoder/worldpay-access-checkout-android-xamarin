@@ -8,11 +8,11 @@
     <owners>wcoder</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/wcoder/worldpay-access-checkout-android-xamarin</projectUrl>
-    <repository type="git" url="https://github.com/wcoder/worldpay-access-checkout-android-xamarin.git" branch="master" commit="654a0a04528da50db5cf9a52464787dcf336adb0" />
+    <repository type="git" url="https://github.com/wcoder/worldpay-access-checkout-android-xamarin.git" branch="master" commit="fcbe0c9b5d64e4d1cd59530c46a9e6cac01f3faf" />
     <iconUrl>https://avatars2.githubusercontent.com/u/7138566?s=200</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Worldpay Access Checkout SDK binding for Xamarin Android.</description>
-    <copyright>$copyright$</copyright>
+    <copyright>Copyright © Yauheni Pakala 2020</copyright>
     <tags>worldpay payments xamarin android bindings</tags>
     <releaseNotes>First release.</releaseNotes>
     <dependencies>
