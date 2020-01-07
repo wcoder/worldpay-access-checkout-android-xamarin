@@ -109,9 +109,9 @@
     <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xam.Bindings.Worldpay.Access.Checkout\Xam.Bindings.Worldpay.Access.Checkout.csproj">
+    <ProjectReference Include="..\src\Xamarin.Droid.Worldpay.Access.Checkout.csproj">
       <Project>{127DD79D-536B-40E4-AA7C-199983CB162B}</Project>
-      <Name>Worldpay.Access.Checkout</Name>
+      <Name>Xamarin.Droid.Worldpay.Access.Checkout</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

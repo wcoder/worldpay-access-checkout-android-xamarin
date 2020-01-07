@@ -493,4 +493,4 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/rider,macos,windows,visualstudio,xamarinstudio,visualstudiocode
-SampleApp.Droid/Resources/Resource.designer.cs
+**/Resource.designer.cs
