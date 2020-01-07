@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xam.Bindings.Worldpay.Access.Checkout", "Xam.Bindings.Worldpay.Access.Checkout\Xam.Bindings.Worldpay.Access.Checkout.csproj", "{127DD79D-536B-40E4-AA7C-199983CB162B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{4AB58EA7-2B7D-4BF4-AFCC-5C59959B16F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Droid", "SampleApp.Droid\SampleApp.Droid.csproj", "{D813CDEE-A1E5-49FE-AC49-3263D4A8E50B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127DD79D-536B-40E4-AA7C-199983CB162B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127DD79D-536B-40E4-AA7C-199983CB162B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127DD79D-536B-40E4-AA7C-199983CB162B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127DD79D-536B-40E4-AA7C-199983CB162B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D813CDEE-A1E5-49FE-AC49-3263D4A8E50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D813CDEE-A1E5-49FE-AC49-3263D4A8E50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D813CDEE-A1E5-49FE-AC49-3263D4A8E50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D813CDEE-A1E5-49FE-AC49-3263D4A8E50B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D813CDEE-A1E5-49FE-AC49-3263D4A8E50B} = {4AB58EA7-2B7D-4BF4-AFCC-5C59959B16F0}
+	EndGlobalSection
+EndGlobal
