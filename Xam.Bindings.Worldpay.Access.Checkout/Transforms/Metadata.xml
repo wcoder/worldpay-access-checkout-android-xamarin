@@ -1,10 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-    <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+    <!-- Don't  need these packages for the Xamarin binding/public API -->
+    <!-- Interfaces -->
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/interface[@name='CardView']/method[@name='getCardViewListener' and count(parameter)=0]" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/interface[@name='CardView']/method[@name='setCardViewListener' and count(parameter)=1 and parameter[1][@type='com.worldpay.access.checkout.views.CardViewListener']]" />
+    <!-- PANLayout -->
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/class[@name='PANLayout']/method[@name='getCardViewListener' and count(parameter)=0]" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/class[@name='PANLayout']/method[@name='setCardViewListener' and count(parameter)=1 and parameter[1][@type='com.worldpay.access.checkout.views.CardViewListener']]" />
+    <!-- CardCVVText -->
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/class[@name='CardCVVText']/method[@name='getCardViewListener' and count(parameter)=0]" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/class[@name='CardCVVText']/method[@name='setCardViewListener' and count(parameter)=1 and parameter[1][@type='com.worldpay.access.checkout.views.CardViewListener']]" />
+    <!-- CardExpiryTextLayout -->
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/class[@name='CardExpiryTextLayout']/method[@name='getCardViewListener' and count(parameter)=0]" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.views']/class[@name='CardExpiryTextLayout']/method[@name='setCardViewListener' and count(parameter)=1 and parameter[1][@type='com.worldpay.access.checkout.views.CardViewListener']]" />
+    <!-- Inheritance -->
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.api.serialization']" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.config']" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.api.configuration']/class[@name='CardConfigurationAsyncTask']" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.api.discovery']/class[@name='AccessCheckoutDiscoveryAsyncTask']" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.api']/class[@name='SessionRequestService']" />
+    <remove-node
+        path="/api/package[@name='com.worldpay.access.checkout.api']/class[@name='RequestDispatcher']" />
+    <!-- Change a parameter name from the generic p0 to a more meaningful one. -->
+    <attr
+        path="/api/package[@name='com.worldpay.access.checkout.views']/interface[@name='SessionResponseListener']/method[@name='onRequestFinished']/parameter[@name='p0']"
+        name="name">sessionState</attr>
+    <attr
+        path="/api/package[@name='com.worldpay.access.checkout.views']/interface[@name='SessionResponseListener']/method[@name='onRequestFinished']/parameter[@name='p1']"
+        name="name">error</attr>
 </metadata>
