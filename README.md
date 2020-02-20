@@ -1,7 +1,7 @@
 # Access Checkout Android SDK
 
 ![version](http://img.shields.io/badge/original-v1.2.0-brightgreen.svg?style=flat)
-[![NuGet Badge](https://buildstats.info/nuget/Xamarin.Droid.Worldpay.Access.Checkout)](https://www.nuget.org/packages/Xamarin.Droid.Worldpay.Access.Checkout/)
+[![NuGet Badge](https://buildstats.info/nuget/Xamarin.Droid.Worldpay.Access.Checkout?includePreReleases=true)](https://www.nuget.org/packages/Xamarin.Droid.Worldpay.Access.Checkout/)
 
 Port of [Worldpay/access-checkout-android](https://github.com/Worldpay/access-checkout-android) SDK for Xamarin.Android.
 
